@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookhouseadmin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/encyclopedia"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/encyclopedia"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookHouseAdmin"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".StudentDetails" android:screenOrientation="portrait"></activity>
+        <activity android:name=".BookAllDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PastRecord" />
+        <activity android:name=".SplashScreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PendingbookDetails" android:screenOrientation="portrait"/>
+        <activity android:name=".RequestDetialsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".BookdetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".AllBooksActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".AdminLoginActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".AdminSignupActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>

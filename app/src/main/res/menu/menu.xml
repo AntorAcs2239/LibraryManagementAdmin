@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/addbook"
+        android:title="AddBook"
+        android:icon="@drawable/addbook"/>
+    <item android:id="@+id/booklist"
+        android:title="Books"
+        android:icon="@drawable/bookshelf"/>
+    <item android:id="@+id/request"
+        android:title="Request"
+        android:icon="@drawable/request"/>
+    <item android:id="@+id/pendingbook"
+        android:title="PendingBook"
+        android:icon="@drawable/pending"/>
+    <item android:id="@+id/students"
+        android:title="Students"
+        android:icon="@drawable/students"/>
+</menu>

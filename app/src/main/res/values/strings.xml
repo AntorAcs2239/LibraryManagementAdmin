@@ -1,0 +1,80 @@
+<resources>
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="app_name">Mec Library Admin</string>
+
+
+    <string name="login">Admin Login</string>
+    <string name="sign">Sign In</string>
+    <string name="signup">Admin SignUp</string>
+    <string name="create">Create an account</string>
+    <string name="post">Rule</string>
+    <string name="search1">Book Name or Writer Name...</string>
+    <string name="takeit">Students who take it</string>
+    <string name="update">Update</string>
+    <string name="incre">Increment</string>
+    <string name="add">Add Book</string>
+    <string name="nointernet">No Internet Connection</string>
+    <string name="record">Record</string>
+    <string name="pendingbook">Pending Book Details</string>
+    <string name="delete">Delete</string>
+    <string name="recived">Receive</string>
+    <string name="ac">Accepted</string>
+    <string name="rj">Reject</string>
+    <string name="rd">Request Details</string>
+    <string name="curbook">Current Book Collection</string>
+    <string name="sd">Student Details</string>
+    <string name="mec">Mymensingh Engineering College</string>
+    <string name="addtol">Add Book To Our Library</string>
+    <string name="addtoll">Add Book To Library</string>
+    <string name="select">Select Books Category </string>
+    <string name="num">Num of Books </string>
+
+
+
+
+
+    <string-array name="catagory">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>Civil</item>
+        <item>General</item>
+        <item>Bangabondho</item>
+        <item>Thesis</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="librarypost">
+        <item>Library In charge</item>
+        <item>Librarian</item>
+        <item>Assistant Librarian</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="amountofbook">
+        <!--        <item>Number of Books</item>-->
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
